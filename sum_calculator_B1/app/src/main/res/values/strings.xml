@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sum_Calculator_B1</string>
+    <string name="button_sum">Tổng</string>
+    <string name="input_a">Nhập A</string>
+    <string name="input_b">Nhập B</string>
+    <string name="label_a">Số A</string>
+    <string name="label_b">Số B</string>
+    <string name="result_label">Kết quả: %1$d</string>
+    <string name="error_invalid_input">Vui lòng nhập số hợp lệ.</string>
+</resources>
