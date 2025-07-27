@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="@string/title"
+            android:textSize="18sp"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/labelName"
+            android:text="@string/label_name"
+            android:labelFor="@id/editName" />
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/labelHeight"
+            android:text="@string/label_height"
+            android:labelFor="@id/editHeight" />
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="height"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/labelWeight"
+            android:text="@string/label_weight"
+            android:labelFor="@id/editWeight" />
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="weight"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calculate"
+        android:gravity="center" />
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/labelBmi"
+            android:text="@string/label_bmi"
+            android:labelFor="@id/editBmi" />
+        <EditText
+            android:id="@+id/editBmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelResult"
+            android:labelFor="@id/editResult"
+            android:text="@string/label_result" />
+
+        <EditText
+            android:id="@+id/editResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="text" />
+    </TableRow>
+</TableLayout>

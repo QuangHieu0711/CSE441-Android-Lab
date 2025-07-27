@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tính BMI</string>
+    <string name="title">Chương trình tính chỉ số BMI</string>
+    <string name="label_name">Nhập Tên:</string>
+    <string name="label_height">Chiều Cao (m):</string>
+    <string name="label_weight">Cân Nặng (kg):</string>
+    <string name="label_bmi">BMI =</string>
+    <string name="label_result">Chuẩn đoán:</string>
+    <string name="btn_calculate">Tính BMI</string>
+</resources>
