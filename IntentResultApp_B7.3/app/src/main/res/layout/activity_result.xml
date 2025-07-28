@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xử lý Kết quả"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/nhana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhận A" />
+
+    <EditText
+        android:id="@+id/nhanb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhận B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btntong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TRẢ VỀ TỔNG" />
+
+        <Button
+            android:id="@+id/btnhieu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TRẢ VỀ HIỆU" />
+    </LinearLayout>
+</LinearLayout>
