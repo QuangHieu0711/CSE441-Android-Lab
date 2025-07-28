@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TableRow>
+        <TextView
+            android:text="Giải phương trình bậc 2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_span="3"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="#006400"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Nhập a:"
+            android:background="#E6FFE6"
+            android:padding="6dp"/>
+        <EditText
+            android:id="@+id/edita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Nhập b:"
+            android:background="#E6FFE6"
+            android:padding="6dp"/>
+        <EditText
+            android:id="@+id/editb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Nhập c:"
+            android:background="#E6FFE6"
+            android:padding="6dp"/>
+        <EditText
+            android:id="@+id/editc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <Button
+            android:id="@+id/btnTiepTuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="#D3CBCB"
+            android:text="Tiếp tục" />
+
+        <Button
+            android:id="@+id/btnGiai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="#D3D3D3"
+            android:text="Giải PT" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:text="Thoát"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:layout_margin="4dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtkq"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="start"
+            android:textColor="#008000"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:background="#DDFFDD"/>
+    </TableRow>
+
+</TableLayout>

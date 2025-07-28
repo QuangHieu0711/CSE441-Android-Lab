@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PTB2App</string>
+    <string name="input_warning">Vui lòng nhập đủ a, b, c</string>
+    <string name="infinite_solutions">PT có vô số nghiệm</string>
+    <string name="no_solution">PT vô nghiệm</string>
+    <string name="one_solution">PT có 1 nghiệm: x = %1$s</string>
+    <string name="double_solution">PT có nghiệm kép x1 = x2 = %1$s</string>
+    <string name="two_solutions">PT có 2 nghiệm: x1 = %1$s; x2 = %2$s</string>
+</resources>
