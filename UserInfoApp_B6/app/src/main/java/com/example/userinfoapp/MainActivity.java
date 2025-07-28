@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         chkDocCode = findViewById(R.id.checkBox3);
         btnGuiThongTin = findViewById(R.id.button);
 
-        rdTrungCap.setChecked(true);
+        rdDaiHoc.setChecked(true);
 
         btnGuiThongTin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,19 +73,16 @@ public class MainActivity extends AppCompatActivity {
 
                 String bangCap = ((RadioButton) findViewById(selectedId)).getText().toString();
 
-                StringBuilder soThich = new StringBuilder();
-                if (chkDocBao.isChecked()) soThich.append(chkDocBao.getText()).append(" - ");
-                if (chkDocSach.isChecked()) soThich.append(chkDocSach.getText()).append(" - ");
-                if (chkDocCode.isChecked()) soThich.append(chkDocCode.getText());
-
-                if (soThich.toString().endsWith(" - ")) {
-                    soThich.setLength(soThich.length() - 3);
-                }
-
-                if (soThich.toString().isEmpty()) {
+                if (!chkDocSach.isChecked() && !chkDocBao.isChecked() && !chkDocCode.isChecked()) {
                     Toast.makeText(MainActivity.this, "Phải chọn ít nhất 1 sở thích", Toast.LENGTH_LONG).show();
                     return;
                 }
+
+                StringBuilder soThich = new StringBuilder();
+                if (chkDocSach.isChecked()) soThich.append("Đọc sách - ");
+                if (chkDocBao.isChecked()) soThich.append("Đọc báo - ");
+                if (chkDocCode.isChecked()) soThich.append("Đọc code - ");
+                if (soThich.length() > 3) soThich.setLength(soThich.length() - 3);
 
                 String msg = hoTen + "\n" +
                         cmnd + "\n" +
