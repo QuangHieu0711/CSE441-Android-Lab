@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LunarYearConverter</string>
+    <string name="title">Chuyển đổi năm dương lịch</string>
+    <string name="label_solar_year">Năm dương lịch:</string>
+    <string name="label_lunar_year">Năm âm lịch:</string>
+    <string name="btn_convert">Chuyển đổi</string>
+</resources>
