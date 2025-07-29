@@ -7,11 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent" android:gravity="center"
         android:padding="16dp">
-
         <TextView
             android:text="This is main Activity"
             android:textSize="20sp"
@@ -20,10 +19,21 @@
 
         <Button
             android:id="@+id/btnOpenChild"
+            style="@style/MyGreenButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Open Child Activity"
             android:layout_marginTop="20dp"/>
+
+        <ListView
+            android:id="@+id/lst_students"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ListView
+            android:id="@+id/listViewStudents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
     </LinearLayout>
 
 

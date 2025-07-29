@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentFilterApp">
         <activity
+            android:name="models.Student"
+            android:exported="false" />
+        <activity
             android:name=".ChildActivity"
             android:exported="false" />
         <activity
