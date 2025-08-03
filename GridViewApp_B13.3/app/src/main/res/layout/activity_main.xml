@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected item will appear here"
+        android:background="#89A96F"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:padding="10dp" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:gravity="center"/>
+</LinearLayout>
