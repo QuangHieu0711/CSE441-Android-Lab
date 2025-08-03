@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar Notes"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:background="#99FF00"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hôm Nay: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="#FFFF99"
+        android:padding="5dp"
+        android:id="@+id/txtdate2"/>
+
+    <EditText
+        android:id="@+id/edtwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the work here..." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edthour"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Hour"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtmin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Minute"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Work"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
