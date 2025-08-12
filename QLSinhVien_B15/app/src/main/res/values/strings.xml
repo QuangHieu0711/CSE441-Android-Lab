@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quản lý sinh viên</string>
+    <string name="title_student_mgmt">QUẢN LÝ SINH VIÊN</string>
+
+    <string name="label_class_code">Mã lớp</string>
+    <string name="label_class_name">Tên lớp</string>
+    <string name="label_class_size">Sĩ số</string>
+
+    <string name="hint_class_code">K25EVT</string>
+    <string name="hint_class_name">KT Điện tử Viễn thông</string>
+    <string name="hint_class_size">45</string>
+
+    <string name="btn_insert">THÊM</string>
+    <string name="btn_delete">XÓA</string>
+    <string name="btn_update">SỬA</string>
+    <string name="btn_query">XEM</string>
+
+    <string name="row_format">%1$s - %2$s - %3$d</string>
+
+    <string name="msg_fill_all">Nhập đầy đủ mã lớp, tên lớp và sĩ số hợp lệ</string>
+    <string name="msg_insert_fail">Thêm thất bại!</string>
+    <string name="msg_insert_ok">Thêm thành công</string>
+    <string name="msg_need_class_code">Nhập mã lớp để xóa</string>
+    <string name="msg_delete_none">Không có bản ghi để xóa</string>
+    <string name="msg_deleted">Đã xóa %1$d bản ghi</string>
+    <string name="msg_need_code_size">Nhập mã lớp và sĩ số hợp lệ để cập nhật</string>
+    <string name="msg_update_none">Không có bản ghi để cập nhật</string>
+    <string name="msg_updated">Đã cập nhật %1$d bản ghi</string>
+</resources>
