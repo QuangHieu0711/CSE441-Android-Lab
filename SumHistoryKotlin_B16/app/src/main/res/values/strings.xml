@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SumHistoryKotlin</string>
+    <string name="nhap_a">Nhập A:</string>
+    <string name="nhap_b">Nhập B:</string>
+    <string name="ket_qua">Kết quả</string>
+    <string name="tong">TỔNG</string>
+    <string name="clear">CLEAR</string>
+    <string name="lich_su">Lịch sử</string>
+</resources>
