@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="92dp"
+    android:background="@drawable/item_bg"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgminh"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgminh"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="USD"/>
+
+    <TextView
+        android:id="@+id/txtMuaTM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgminh"
+        android:layout_below="@id/txtType"
+        android:layout_marginStart="8dp"
+        android:text="MuaTM:"/>
+
+    <TextView
+        android:id="@+id/txtMuaCK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txtMuaTM"
+        android:layout_alignBaseline="@id/txtMuaTM"
+        android:layout_marginStart="16dp"
+        android:text="MuaCK:"/>
+
+    <TextView
+        android:id="@+id/txtBanTM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgminh"
+        android:layout_below="@id/txtMuaTM"
+        android:layout_marginStart="8dp"
+        android:text="BanTM:"/>
+
+    <TextView
+        android:id="@+id/txtBanCK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txtBanTM"
+        android:layout_alignBaseline="@id/txtBanTM"
+        android:layout_marginStart="16dp"
+        android:text="BanCK:"/>
+
+    <TextView
+        android:id="@+id/txtBANK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/txtType"
+        android:text="BANK:"/>
+</RelativeLayout>
